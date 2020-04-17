@@ -1,0 +1,15 @@
+hello1:
+  module:     simplewsgi.controllers.sample
+  method:     GET
+  url:        /hello1
+  action:     sayHello1
+hello2:
+  module:     simplewsgi.controllers.sample
+  method:     GET
+  url:        /hello2
+  action:     sayHello2
+hello3:
+  module:     simplewsgi.controllers.sample2
+  method:     GET
+  url:        /hello3
+  action:     sayHello3
